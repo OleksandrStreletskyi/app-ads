@@ -12,6 +12,8 @@ bidmachine.io,466,DIRECT
 
 #AdMob
 
+google.com, pub-8392918392631547, DIRECT, f08c47fec0942fa0
+
 #Meta-Audience
 
 #Add other networks if applicable
