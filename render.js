@@ -3,7 +3,7 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',
 const langs={en:'English',ru:'Русский',uk:'Українська',cs:'Čeština',pl:'Polski',de:'Deutsch',fr:'Français',es:'Español'};
 const ids={free:'com.AnomalyGameStudio.S.T.R.Y.K.E.R.ShadowWarDemo',paid:'com.AnomalyGameStudio.STRYKERAnomalyZone',poly:'com.AnomalyGameStudio.POLYZONAChernobylBunker'};
 const play=k=>'https://play.google.com/store/apps/details?id='+ids[k];
-const docs={ads:'https://docs.google.com/document/d/1AZf2SpOawBiQU87LmFsCxaeDwT3FbvDvwnfxZvsLlEU/edit',paid:'https://docs.google.com/document/d/1XgPyt-SEuzafiFl7PSrN6DYhfGfcCI0mW5Tzjy01rJo/edit'};
+const docs={ads:'privacy-policy.html',paid:'privacy-policy.html'};
 function render(lang,page){const t=SITE_CONTENT[lang],s=i=>esc(t[i]),link=(p)=>p+'?lang='+lang;
 const header='<header class="topbar"><div class="wrap"><a class="brand" href="'+link('index.html')+'"><span class="mark" aria-hidden="true">☢</span>Anomaly Game Studio</a><nav class="nav" aria-label="'+s(0)+'"><a href="'+link('index.html')+'#games">'+s(0)+'</a><a href="'+link('index.html')+'#compare">'+s(1)+'</a><a href="'+link('index.html')+'#support">'+s(2)+'</a><select id="language" aria-label="Language">'+Object.entries(langs).map(([v,n])=>'<option value="'+v+'"'+(v===lang?' selected':'')+'>'+n+'</option>').join('')+'</select></nav></div></header>';
 const footer='<footer class="footer"><div class="wrap"><p>© 2026 Anomaly Game Studio · Oleksandr Streletskyi</p><div><a href="'+link('terms.html')+'">'+s(3)+'</a> · <a href="'+link('privacy.html')+'">'+s(4)+'</a> · <a href="app-ads.txt">app-ads.txt</a></div></div></footer>';

@@ -1,3 +1,4 @@
+# Combined on 2026-11-06: Appodeal export plus existing developer-website seller entries.
 #Updated 31.03.2026
 
 #Appodeal
@@ -5029,3 +5030,12 @@ trustedstack.com, TS677PGY3, RESELLER
 adyoulike.com, 721f20f70910d379981dc19ec5da709f, RESELLER
 
 axonix.com, 59204, RESELLER
+
+# Entries retained from the developer website currently linked in Google Play.
+google.com, pub-8392918392631547, DIRECT, f08c47fec0942fa0
+pubmatic.com, 165116, RESELLER, 5d62403b186f2ace
+pubmatic.com, 164532, RESELLER, 5d62403b186f2
+unity.com, 1067679, DIRECT, 96cabb5fbdde37a7
+lijit.com, 511365, RESELLER, fafdf38b16bf6b2b
+video.unrulymedia.com, 436487936, RESELLER
+google.com, pub-6938873675381473, RESELLER
